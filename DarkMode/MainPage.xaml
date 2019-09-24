@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="DarkMode.MainPage"
+             BackgroundColor="{DynamicResource background}">
+
+    <StackLayout VerticalOptions="Center"
+                 Margin="16,0">
+        <!-- Place new controls here -->
+        <Label Text="Welcome to Xamarin.Forms!"
+               TextColor="{DynamicResource mainLabel}"/>
+        <Entry Placeholder="Enter some text"/>
+        <Button Text="Click me"/>
+    </StackLayout>
+
+</ContentPage>
